@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Sebastian van Eickelen Herrera -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recuperacion | Mario</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    <div id="overlay">
+        <div class="spinner"></div>
+    </div>
+    <video id="mivideo">
+        <source src="video/video.mp4">
+    </video>
+    <hr>
+    <div class="botones">
+        <img src="img/Play.png" id="play" height=50px>
+        <img src="img/Pause.png" id="pause" height=50px>
+    </div>
+    <br>
+    <div class="botones2">
+        <img src="img/Boton1.png" id="boton1">
+        <img src="img/Boton2.png" id="boton2">
+    </div>
+    <div class="botones3">
+        <img src="img/Boton4.png" id="boton4">
+        <img src="img/Boton5.png" id="boton5">
+    </div>
+    <button id="acelerar">Forward</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/functionsfinal.js"></script>
+    <script>
+    var overlay = document.getElementById("overlay");
+
+    window.addEventListener('load', function() {
+        overlay.style.display = 'none';
+    })
+    </script>
+</body>
+
+</html>
